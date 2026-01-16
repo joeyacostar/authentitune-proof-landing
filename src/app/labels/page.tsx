@@ -59,7 +59,8 @@ export default function LabelsPage() {
             rel={demoIsExternal ? "noopener noreferrer" : undefined}
             className="rounded-full bg-[color:var(--ink)] px-4 py-2 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
           >
-            Book a 10-minute demo
+            Book a 10-minute call — we&apos;ll walk through the intake flow and
+            answer questions about your catalog workflow.
           </a>
         </div>
         <div className="flex items-center gap-4 overflow-x-auto border-t border-black/10 px-6 py-3 text-xs font-medium uppercase tracking-[0.2em] md:hidden">
@@ -107,7 +108,8 @@ export default function LabelsPage() {
                   rel={demoIsExternal ? "noopener noreferrer" : undefined}
                   className="inline-flex items-center justify-center rounded-full bg-[color:var(--ink)] px-6 py-3 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
                 >
-                  Book a 10-minute demo
+                  Book a 10-minute call — we&apos;ll walk through the intake flow
+                  and answer questions about your catalog workflow.
                 </a>
                 <a
                   href="#intake"
@@ -274,6 +276,10 @@ export default function LabelsPage() {
                   Keep the process lightweight while we align on intake scope,
                   scoring, and export format.
                 </p>
+                <p className="mt-4 text-base font-semibold text-black/80">
+                  30-day pilot: $250/month — includes up to 50 submission
+                  audits, 24-48h turnaround, and one onboarding call.
+                </p>
               </div>
               <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-lg">
                 <ul className="space-y-3 text-sm text-black/70">
@@ -288,7 +294,8 @@ export default function LabelsPage() {
                   rel={demoIsExternal ? "noopener noreferrer" : undefined}
                   className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[color:var(--ink)] px-5 py-2 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
                 >
-                  Book a 10-minute demo
+                  Book a 10-minute call — we&apos;ll walk through the intake flow
+                  and answer questions about your catalog workflow.
                 </a>
               </div>
             </div>
