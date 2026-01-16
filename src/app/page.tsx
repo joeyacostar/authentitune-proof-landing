@@ -27,6 +27,12 @@ export default function Home() {
             </a>
             <a
               className="transition hover:text-[color:var(--copper)]"
+              href="/labels"
+            >
+              For Labels
+            </a>
+            <a
+              className="transition hover:text-[color:var(--copper)]"
               href="#checker"
             >
               Rights checker
@@ -60,6 +66,9 @@ export default function Home() {
           </a>
           <a className="whitespace-nowrap" href="#included">
             What&apos;s included
+          </a>
+          <a className="whitespace-nowrap" href="/labels">
+            For Labels
           </a>
           <a className="whitespace-nowrap" href="#checker">
             Rights checker
