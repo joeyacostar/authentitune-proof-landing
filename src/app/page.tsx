@@ -193,7 +193,7 @@ export default function Home() {
                       className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[color:var(--cloud)] p-4"
                     >
                       <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full border border-black/20 text-xs">
-                        &gt;
+                        +
                       </span>
                       <span>{item}</span>
                     </li>
@@ -327,7 +327,7 @@ export default function Home() {
 
       <footer className="border-t border-black/10 py-10">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 text-sm text-black/60 md:flex-row md:items-center md:justify-between">
-          <p>(c) 2024 AuthentiTune Proof. All rights reserved.</p>
+          <p>(c) {new Date().getFullYear()} AuthentiTune Proof. All rights reserved.</p>
           <div className="flex flex-wrap gap-4">
             <a className="hover:text-black" href="#how">
               How it works
