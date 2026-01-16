@@ -52,7 +52,7 @@ export default function RightsChecker() {
       return {
         label: "YELLOW",
         message:
-          "Potential rights or policy risks. Review tool terms and assets.",
+          "Plan or timing gaps, third-party materials, or impersonation can mismatch commercial distribution or distributor warranties. Verify terms before you release.",
       };
     }
 
@@ -147,6 +147,12 @@ export default function RightsChecker() {
           How we decide: plan + subscription timing + distribution scope +
           rights risk flags.
         </p>
+        <a
+          href="#pricing"
+          className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-[color:var(--ink)] px-4 py-2 text-xs font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
+        >
+          Get the full pack ($9)
+        </a>
         <p className="mt-3 text-xs text-black/60">
           Not legal advice. Check your tool terms and distributor policies.
         </p>

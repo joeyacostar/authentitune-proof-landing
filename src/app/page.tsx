@@ -109,10 +109,10 @@ export default function Home() {
               </div>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href="#waitlist"
+                  href="#pricing"
                   className="inline-flex items-center justify-center rounded-full bg-[color:var(--ink)] px-6 py-3 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
                 >
-                  Join the waitlist
+                  Get a Beta Pack
                 </a>
                 <a
                   href="#included"
@@ -350,16 +350,22 @@ export default function Home() {
                   name: "Beta Pack",
                   price: "$9 / track",
                   detail: "Concierge delivery",
+                  who: "For one-off releases and pilots.",
+                  cta: "Get a Beta Pack",
                 },
                 {
                   name: "Creator",
                   price: "$19 / month",
                   detail: "Includes 3 packs",
+                  who: "For ongoing AI-assisted releases.",
+                  cta: "Start Creator Plan",
                 },
                 {
                   name: "Studio/Label",
                   price: "$99 / month",
                   detail: "Early access + priority",
+                  who: "For teams shipping at scale.",
+                  cta: "Request Studio Access",
                 },
               ].map((plan) => (
                 <div
@@ -371,11 +377,12 @@ export default function Home() {
                   </p>
                   <p className="mt-4 text-3xl font-semibold">{plan.price}</p>
                   <p className="mt-2 text-sm text-black/70">{plan.detail}</p>
+                  <p className="mt-2 text-sm text-black/60">{plan.who}</p>
                   <a
                     href="#waitlist"
                     className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[color:var(--ink)] px-5 py-2 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
                   >
-                    Get a Beta Pack
+                    {plan.cta}
                   </a>
                 </div>
               ))}
@@ -456,7 +463,7 @@ export default function Home() {
                 className="rounded-full bg-[color:var(--ink)] px-6 py-3 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80 sm:col-span-2"
                 type="submit"
               >
-                Join the waitlist
+                Request a Beta Pack
               </button>
             </form>
             {!waitlistAction ? (
