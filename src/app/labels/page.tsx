@@ -53,15 +53,9 @@ export default function LabelsPage() {
               FAQ
             </a>
           </nav>
-          <a
-            href={demoUrl}
-            target={demoIsExternal ? "_blank" : undefined}
-            rel={demoIsExternal ? "noopener noreferrer" : undefined}
-            className="rounded-full bg-[color:var(--ink)] px-4 py-2 text-sm font-semibold text-[color:var(--sand)] transition hover:bg-black/80"
-          >
-            Book a 10-minute call — we&apos;ll walk through the intake flow and
-            answer questions about your catalog workflow.
-          </a>
+          <div className="rounded-full border border-black/15 bg-white/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-black/70">
+            Label intake ops
+          </div>
         </div>
         <div className="flex items-center gap-4 overflow-x-auto border-t border-black/10 px-6 py-3 text-xs font-medium uppercase tracking-[0.2em] md:hidden">
           <a className="whitespace-nowrap" href="#how">
