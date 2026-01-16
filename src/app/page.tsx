@@ -190,9 +190,8 @@ export default function Home() {
                   ].map((item) => (
                     <li
                       key={item}
-                      className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[color:var(--cloud)] p-4"
+                      className="list-disc list-inside rounded-2xl border border-black/10 bg-[color:var(--cloud)] p-4"
                     >
-                      <span className="mt-2 inline-flex h-2 w-2 rounded-full bg-black/40" />
                       <span>{item}</span>
                     </li>
                   ))}
