@@ -83,7 +83,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.1fr_0.9fr] md:py-28">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[color:var(--moss)]">
-                AI disclosure + provenance
+                Rights &amp; claims + provenance
               </p>
               <h1 className="mt-6 text-4xl font-semibold leading-tight text-[color:var(--ink)] md:text-6xl md:leading-tight">
                 <span className="font-[var(--font-display)]">
