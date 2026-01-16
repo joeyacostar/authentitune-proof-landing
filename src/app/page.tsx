@@ -87,15 +87,14 @@ export default function Home() {
               </p>
               <h1 className="mt-6 text-4xl font-semibold leading-tight text-[color:var(--ink)] md:text-6xl md:leading-tight">
                 <span className="font-[var(--font-display)]">
-                  Before you click &quot;I own the rights,&quot; know what
+                  Before you click &apos;I own the rights,&apos; know what
                   you&apos;re claiming.
                 </span>
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-black/70 md:text-xl">
-                AuthentiTune Proof generates a Rights &amp; Claims Pack for
-                AI-assisted releases: generator terms snapshot, distributor
-                warranty checklist, disclosure snippets, and a signed
-                provenance receipt.
+                Generate a Rights &amp; Claims Pack for AI-assisted releases:
+                generator terms snapshot, distributor warranty checklist,
+                disclosure snippets, and a signed provenance receipt.
               </p>
               <div className="mt-6 rounded-2xl border border-black/10 bg-white/70 p-4 text-sm text-black/70">
                 <p>

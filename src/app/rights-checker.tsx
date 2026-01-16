@@ -143,6 +143,10 @@ export default function RightsChecker() {
           {result.label}
         </span>
         <p className="mt-3 text-sm text-black/70">{result.message}</p>
+        <p className="mt-2 text-xs text-black/60">
+          How we decide: plan + subscription timing + distribution scope +
+          rights risk flags.
+        </p>
         <p className="mt-3 text-xs text-black/60">
           Not legal advice. Check your tool terms and distributor policies.
         </p>
