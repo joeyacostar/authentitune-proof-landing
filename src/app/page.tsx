@@ -192,9 +192,7 @@ export default function Home() {
                       key={item}
                       className="flex items-start gap-3 rounded-2xl border border-black/10 bg-[color:var(--cloud)] p-4"
                     >
-                      <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full border border-black/20 text-xs">
-                        +
-                      </span>
+                      <span className="mt-2 inline-flex h-2 w-2 rounded-full bg-black/40" />
                       <span>{item}</span>
                     </li>
                   ))}
